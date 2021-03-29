@@ -16,12 +16,16 @@ console.log(carType);
        //document.write("Mr."+fullName+ "was visited our Web sit")
     //}
 carType=prompt('You have to select Benz car Mr.'+fullName,'Benz');
+function cars (carType)
+{
 while(carType!='Benz')
 {
 alert("please Enter Valid car Name");
 carType=prompt('You have to select Benz car Mr.'+fullName,'Benz');
 
 }//End while loop
+
+
 carCount=prompt('Mr.'+fullName+'Howa many number Benze car you want se it ');
 carImage="<img src='image/ImageResizer.jpg'/>"
 
@@ -29,3 +33,5 @@ for (i=1;i<=carCount;i++)
 {
     document.write(carImage);
 }
+}//end function
+cars(carType)
