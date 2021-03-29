@@ -15,8 +15,9 @@ header {
    margin-top: 5px;
     }
 header  h1 {
+    text-align: center;
 color: hotpink;
-font: left;
+
 margin: 10px 0 0 1%;
   }
   header nav ul li{
@@ -27,3 +28,16 @@ margin-left: 6%;
       color: blue;
       text-decoration: none;
   }
+  #first{
+
+    background-color: rgba(224, 11, 11, 0.5);
+    color: rgba(223, 235, 229, 0.917)
+
+  }
+  .container{
+    display: inline-block;
+    text-align: center;
+    height: 450px;
+    width: 40%;
+    margin-left:100px;
+}
